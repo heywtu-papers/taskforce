@@ -1,6 +1,12 @@
 .navbarbg {
   height: 55px;
   background-color: white;
+  width: 100%;
+  padding: 0 30px;
+  
+}
+.navbar-brand{
+  margin-right: 0 !important;
 }
 
 input.searche {
@@ -8,19 +14,22 @@ input.searche {
   max-width: 500px;
   background-color: #eef3f8;
   border: 0;
+  padding:0 8px;
 }
 
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url("/assets/search-solid.svg");
   background-repeat: no-repeat;
   background-size: 7%;
 }
 
 .body {
   background-color: #f3f2ef;
+  
 }
+
 
 .menutext {
   font-size: 13px;
@@ -28,6 +37,7 @@ input.searche::placeholder {
   color: gray;
   margin-top: 5px;
   font-weight: lighter;
+  margin-bottom: -15px;
 }
 
 .menutext:hover {
@@ -36,6 +46,8 @@ input.searche::placeholder {
 
 button.mediatext {
   color: #5f5f5f;
+  border:0; 
+  background-color:white;
 }
 
 button.mediatext:hover {
@@ -65,7 +77,7 @@ input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url("/assets/edit-regular.svg");
   background-repeat: no-repeat;
   background-size: auto;
 }
